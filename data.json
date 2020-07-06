@@ -1,58 +1,46 @@
 {
-  "instructors": [
+  "members": [
     {
       "id": 1,
-      "avatar_url": "http://www.google.com",
-      "name": "Marcos",
+      "avatar_url": "https://images.unsplash.com/photo-1470468969717-61d5d54fd036?ixlib=rb-1.2.1&auto=format&fit=crop&w=383&q=80",
+      "name": "Aaaaa Aaaaaa",
+      "email": "aa@a.com.br",
       "birth": 946684800000,
-      "gender": "M",
-      "services": "teste, teste, teste",
-      "created_at": 1593654211165
+      "gender": "F",
+      "blood": "O-",
+      "weight": "75",
+      "height": "172"
     },
     {
       "id": 2,
-      "avatar_url": "http://www.777.com",
-      "name": "JJ da Silva",
-      "birth": 685929600000,
+      "avatar_url": "https://images.unsplash.com/photo-1546483875-ad9014c88eba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=674&q=80",
+      "name": "Bababa Bbabbaa",
+      "email": "bb@gmail.com",
+      "birth": 889401600000,
       "gender": "F",
-      "services": "musculacao, corrida",
-      "created_at": 1593728518649
-    },
+      "blood": "AB+",
+      "weight": "70",
+      "height": "168"
+    }
+  ],
+  "instructors": [
     {
-      "id": 3,
-      "avatar_url": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
-      "name": "teste",
-      "birth": 476064000000,
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "name": "Juliana AAABN",
+      "birth": 754704000000,
       "gender": "F",
-      "services": "musculacao",
-      "created_at": 1593729810607
+      "services": "   Corrida ",
+      "created_at": 1594003739279
     },
     {
-      "id": 4,
-      "avatar_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
-      "name": "  pub",
-      "birth": 842313600000,
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+      "name": "Hellen",
+      "birth": 567993600000,
       "gender": "F",
-      "services": "  pula pula",
-      "created_at": 1593750230769
-    },
-    {
-      "id": 5,
-      "avatar_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
-      "name": "MARCOS ALEXANDRE DOS ANJOS",
-      "birth": 946684800000,
-      "gender": "M",
-      "services": "  pula pula",
-      "created_at": 1593784433478
-    },
-    {
-      "id": 6,
-      "avatar_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
-      "name": "MARCOS ALEXANDRE DOS ANJOS",
-      "birth": 946684800000,
-      "gender": "M",
-      "services": "  pula pula",
-      "created_at": 1593786991484
+      "services": "  aa,aaa,asaassa",
+      "created_at": 1594003806539
     }
   ]
 }

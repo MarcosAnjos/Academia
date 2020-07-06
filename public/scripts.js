@@ -1,11 +1,10 @@
-// selecionando os card
-const cards = document.querySelectorAll('.cards')
+// pegar a pagina que estou - deixar selecionado o menu
+const currentPage = location.pathname
+const menuItems = document.querySelectorAll('header .links a')
 
-// cada card um click
-for (let card of cards) {
-    card.addEventListener('click', function(){
-        const receitaid = card.getAttribute("id")
-        window.location.href =  `/receita?id=${ receitaid }`
-
-    })
+for(item of menuItems){
+    // se meu nome do href ==  com meu nome ques estou pegando
+    if(currentPage.includes(item.getAttribute('href'))){
+        item.classList.add('active')
+    }
 }

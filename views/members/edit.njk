@@ -4,35 +4,37 @@
 
     <div class="card">
 
-        <section class='avatar' style='background: url({{ instructor.avatar_url }}) no-repeat center center / cover'></section>
+        <section class='avatar' style='background: url({{ member.avatar_url }}) no-repeat center center / cover'></section>
 
-        <form method='POST' action='/instructors?_method=PUT'>
+        <form method='POST' action='/members?_method=PUT'>
 
             <section class='details'>
 
-                <h3>Editar Instructor</h3>
+                <h3>Editar Membro</h3>
 
-                {% include 'instructors/fields.njk' %}
+                {% include 'members/fields.njk' %}
                 {# id #}
-                <input type="hidden" name="id" value="{{ instructor.id }}">
+                <input type="hidden" name="id" value="{{ member.id }}" >
                 {# estou pegado meu id, para saber qual instrutor esta editando, para salvar - assim estou enviando para meu body o meu ID #}
 
             </form>
 
-            <form id='form-delete' action="/instructors?_method=DELETE" method='POST'>
-                <input type="hidden" name="id" value="{{ instructor.id }}">
+            <form  id='form-delete' action="/members?_method=DELETE" method='POST'>
+                <input type="hidden" name="id" value="{{ member.id }}">
                 <button type="submit">Deletar</button>
             </form>
 
         </section>
 
     </div>
+
     <script>
         const formDelete = document.querySelector('#form-delete')
-        formDelete.addEventListener('submit', function (event) {
+        formDelete.addEventListener('submit', function(event){
             const confirmaion = confirm('Deseja EXCLUIR?')
-            if (!confirmaion) 
+            if(!confirmaion)
                 event.preventDefault()
         })
     </script>
+
 {% endblock content %}
